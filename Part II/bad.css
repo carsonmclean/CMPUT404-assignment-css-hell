@@ -1,0 +1,81 @@
+body {
+  background-image: url("CarsonMcLeanProfilePicture.jpeg");
+  /*https://developers.google.com/fonts/docs/getting_started*/
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.heading {
+  background: : #"007acc";
+  width: 90%;
+  height: 7.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  z-index: 100;
+}
+
+.navbar  {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 2.5em;
+   vertical-align: middle;
+   background: #404040;
+}
+
+.navbar.link {
+  color: White;
+  size:1.2em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-top: 0em;
+  /*http://www.w3schools.com/css/css_link.asp*/
+  text-decoration: none;
+}
+
+.main {
+  padding: 2em;
+  width: 90%;
+	background: White;
+	margin-left: auto;
+	margin-right: auto;
+  /*https://css-tricks.com/box-sizing/*/
+	box-sizing: border-box;
+	}
+
+#topname {
+  padding-top: .5em;
+  padding-left: .5em;
+  /*color: Yellow;*/
+  font-size: 2.5em;
+  position: absolute;
+  /*https://rainbowcoding.com/how-to-create-rainbow-text-in-html-css-javascript/*/
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#profile-picture {
+  float: right;
+  padding-right: 5em;
+  padding-left: 3em;
+  max-width: 20%;
+  min-width: 5em;
+  position: absolute;
+  /*http://stackoverflow.com/questions/16771225/css3-rotate-animation*/
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  margin:-60px 0 0 -60px;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 10s linear infinite;
+}
+
+/*http://stackoverflow.com/questions/16771225/css3-rotate-animation*/
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
