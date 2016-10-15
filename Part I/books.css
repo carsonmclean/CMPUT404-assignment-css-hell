@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+ body {
+   font-family: 'Dancing Script', cursive !important;
+ }
+
+body pre {
+  font-family: 'Dancing Script', cursive;
+}
