@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
  body {
+   background-image: url(https://s-media-cache-ak0.pinimg.com/564x/3e/94/f3/3e94f391e6057ca07abc1ff5fcc0df86.jpg);
+   background-size: 100%; 
    font-family: 'Dancing Script', cursive !important;
+   text-align: center;
  }
 
-body pre {
+pre {
   font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.toc {
+  font-size: 2em;
+  font-weight: bold;
 }
