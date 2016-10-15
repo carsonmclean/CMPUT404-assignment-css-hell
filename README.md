@@ -21,4 +21,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-
+External Source Code & References
+=================================
+https://developers.google.com/fonts/docs/getting_started
+http://www.w3schools.com/css/css_link.asp
+https://css-tricks.com/box-sizing/
+https://rainbowcoding.com/how-to-create-rainbow-text-in-html-css-javascript/
+http://stackoverflow.com/questions/16771225/css3-rotate-animation
