@@ -1,0 +1,60 @@
+body {
+  background: DimGrey;
+  /*https://developers.google.com/fonts/docs/getting_started*/
+  font-family: 'Lato', sans-serif;
+}
+
+.heading {
+  background: #007acc;
+  width: 90%;
+  height: 7.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  z-index: 100;
+}
+
+.navbar  {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 2.5em;
+   vertical-align: middle;
+   background: #404040;
+}
+
+.navbar.link {
+  color: White;
+  size:1.2em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-top: 0em;
+  /*http://www.w3schools.com/css/css_link.asp*/
+  text-decoration: none;
+}
+
+.main {
+  padding: 2em;
+  width: 90%;
+	background: White;
+	margin-left: auto;
+	margin-right: auto;
+  /*https://css-tricks.com/box-sizing/*/
+	box-sizing: border-box;
+	}
+
+#topname {
+  padding-top: .5em;
+  padding-left: .5em;
+  color: MintCream;
+  font-size: 2.5em;
+  position: absolute;
+}
+
+#profile-picture {
+  float: right;
+  padding-right: 5em;
+  padding-left: 3em;
+  max-width: 20%;
+  min-width: 5em;
+}
