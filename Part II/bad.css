@@ -35,8 +35,8 @@ body {
 
 .main {
   padding: 2em;
-  width: 90%;
-	background: White;
+  width: 40%;
+	background: LimeGreen;
 	margin-left: auto;
 	margin-right: auto;
   /*https://css-tricks.com/box-sizing/*/
@@ -73,6 +73,16 @@ body {
   -webkit-animation:spin 4s linear infinite;
   -moz-animation:spin 4s linear infinite;
   animation:spin 10s linear infinite;
+}
+
+ul {
+    background: #3399ff;
+    padding: 20px;
+}
+
+li {
+  background: red;
+  padding: -5px;
 }
 
 /*http://stackoverflow.com/questions/16771225/css3-rotate-animation*/
