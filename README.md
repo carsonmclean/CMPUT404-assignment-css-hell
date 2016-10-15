@@ -23,8 +23,13 @@ Code is licensed under the Apache 2.0 license.
 
 External Source Code & References
 =================================
-https://developers.google.com/fonts/docs/getting_started
-http://www.w3schools.com/css/css_link.asp
-https://css-tricks.com/box-sizing/
-https://rainbowcoding.com/how-to-create-rainbow-text-in-html-css-javascript/
-http://stackoverflow.com/questions/16771225/css3-rotate-animation
+* https://developers.google.com/fonts/docs/getting_started
+* http://www.w3schools.com/css/css_link.asp
+* https://css-tricks.com/box-sizing/
+* https://rainbowcoding.com/how-to-create-rainbow-text-in-html-css-javascript/
+* http://stackoverflow.com/questions/16771225/css3-rotate-animation
+
+Modification to Gutenberg HTML Files
+====================================
+In every single file, added:
+`<link rel="stylesheet" type="text/css" href="books.css">` just before the `</head>` tag.

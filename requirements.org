@@ -41,12 +41,12 @@
     - [ ] Take 3 screenshots of firefox running all of your pages that
       demonstrates your theme.
 
-** Part II 
+** Part II
 
    You're going to make your own HTML page and you're going to make 2
    CSS themes for it.
 
-   Emulate the 2nd and 3rd design from this comic: 
+   Emulate the 2nd and 3rd design from this comic:
    http://theoatmeal.com/comics/design_hell
 
    But instead make a 1 webpage about each assignment partner (1 page
@@ -79,7 +79,7 @@
     - [ ] Take 2 screenshots of firefox running all of your pages that
       demonstrates your theme.
     - [ ] Ensure that files are appropriately named and CASE SENSITIVE.
-    
+
 
 ** Restrictions
    - [ ] Use Python 2.7
