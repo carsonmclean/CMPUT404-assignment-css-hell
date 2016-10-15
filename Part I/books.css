@@ -2,17 +2,68 @@
 
  body {
    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/3e/94/f3/3e94f391e6057ca07abc1ff5fcc0df86.jpg);
-   background-size: 100%; 
+   background-size: 100%;
    font-family: 'Dancing Script', cursive !important;
    text-align: center;
+   margin: 10%;
+   min-width: 320px;
  }
 
-pre {
-  font-family: 'Dancing Script', cursive;
-  text-align: center;
+ pre {
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+   font-size: 2em;
+ }
+
+ p {
+   margin: .75em;
+ }
+
+ p.toc {
+   text-align: justify;
+ }
+
+ h1 {
+     font-size: 40pt;
+ }
+
+ h2 {
+     font-size: 30pt;
+ }
+
+ h3 {
+     font-size: 20pt;
+ }
+
+ h4 {
+     font-size: 10pt;
+ }
+
+ h5 {
+     font-size: 5pt;
+ }
+
+/* Trying to make links more subtle in color */
+a {
+  color: 1A0D99;
 }
 
-.toc {
+a:visited {
+  color: 47243D;
+}
+
+/*Sherlock*/
+.book {
   font-size: 2em;
+}
+
+body > div > div > table {
+  font-size: .5em;
+}
+
+
+
+.toc {
+  font-size: 2em !important;
   font-weight: bold;
 }
